@@ -1,0 +1,35 @@
+# NeuroVision AI — Requirements (Python 3.14 verified)
+
+# ── PyTorch (install separately from pytorch.org for your hardware) ──
+# CPU: pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# GPU: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+
+# Verified working on Python 3.14.4:
+# torch==2.14.0+cpu
+# torchvision==0.29.0+cpu
+
+# ── Grad-CAM ────────────────────────────────────────────────
+grad-cam>=1.5.7
+
+# ── Image Processing ────────────────────────────────────────
+Pillow>=12.0.0
+opencv-python-headless>=5.0.0
+scipy>=1.11.0
+numpy>=2.0.0
+
+# ── Data / ML Utilities ─────────────────────────────────────
+scikit-learn>=1.4.0
+pandas>=2.0.0
+
+# ── Visualization ───────────────────────────────────────────
+plotly>=7.0.0
+matplotlib>=3.8.0
+
+# ── Streamlit ───────────────────────────────────────────────
+streamlit>=1.61.0
+
+# ── Utilities ───────────────────────────────────────────────
+tqdm>=4.66.0
+
+# ── Testing ─────────────────────────────────────────────────
+pytest>=9.0.0
